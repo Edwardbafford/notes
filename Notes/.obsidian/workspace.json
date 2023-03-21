@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "878396be41de88b9",
+        "id": "da305bb25163cefe",
         "type": "tabs",
         "children": [
           {
-            "id": "ac6d927aaf185de8",
+            "id": "52f22025be651ec6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Technology Catalog/Other/Maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technology Catalog/Other/Maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technology Catalog/Other/Maven.md"
+              }
             }
           }
         ]
@@ -139,17 +143,53 @@
   },
   "active": "9dda89c70e5e99be",
   "lastOpenFiles": [
-    "Tutorial/Note.md",
-    "Tutorial/Untitled.canvas",
-    "Tutorial/Other.md",
-    "images/Dependency Parsing.jpg",
-    "images/download.jfif",
+    "Technology Catalog/Other/Nginx.md",
+    "Technology Catalog/Other/Python.md",
+    "Technology Catalog/Other/Maven.md",
+    "Technology Catalog/Other/Hashicorp.md",
+    "Technology Catalog/Other/Git.md",
+    "Cyber Security/Secret Management.md",
+    "Technology Catalog/Containers",
+    "Technology Catalog/Protocol",
+    "Cyber Security/Service-to-Service.md",
+    "Technology Catalog/Containers/Kubernetes/Kubernetes.md",
+    "Cyber Security/Container Security.md",
+    "Technology Catalog/Containers/Docker/Docker.md",
+    "Software Engineering/Service Mesh.md",
+    "Technology Catalog/Containers/Linkerd.md",
+    "Technology Catalog/Protocol/OAuth2.md",
+    "Technology Catalog/AWS/AWS.md",
+    "Software Engineering/HTTP.md",
+    "Technology Catalog/AWS/Services/IAM.md",
+    "Technology Catalog/AWS/Services",
+    "Cyber Security/Application Security.md",
+    "Cyber Security/Authorization.md",
+    "Software Engineering/Macaroons.md",
+    "___/Macaroon.jpg",
+    "Software Engineering/Attribute Based Access Control.md",
+    "Software Engineering/Role Based Access Control.md",
+    "Software Engineering/Access Control List.md",
+    "Cyber Security/Authentication.md",
+    "Technology Catalog/Protocol/SAML.md",
+    "Technology Catalog/Protocol/OpenID Connect.md",
+    "Cookie.md",
+    "___/OAuth2.jpg",
+    "___/OAuth.jpg",
+    "___/csrf-token.png",
+    "___/csrf-token.png.crdownload",
+    "___/cert-chain.png",
     "images",
-    "New folder",
+    "___/HMAC.jpg",
+    "Cyber Security/Concepts",
+    "Technology Catalog/Other/Untitled",
+    "Technology Catalog/Containers/Docker",
+    "Technology Catalog/Containers/Kubernetes",
+    "Devops",
+    "___/API Security.jpg",
+    "Tutorial/Untitled.canvas",
+    "images/Dependency Parsing.jpg",
     "Test.canvas",
-    "2023-03-16.md",
     "Untitled.canvas",
-    "Tutorial",
     "Untitled 1.canvas"
   ]
 }
