@@ -41,3 +41,28 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 ## Access
 
 - [[IAM]]
+
+## Networking
+
+- [[Route 53]]
+- [[ELB]]
+
+## Compute
+
+- [[EC2]]
+
+## Storage
+
+- [[EC2 Instance Store]]
+- [[EBS]]
+- [[EFS]]
+
+### Database
+
+- [[RDS]]
+- [[Aurora]]
+- [[ElastiCache]]
+
+### Devops
+
+- [[Elastic Beanstalk]]

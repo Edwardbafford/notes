@@ -42,7 +42,7 @@ Service objects can be as an abstraction of a collection of pods to represent a 
 
 ## **Ingress Controller**
 
-External endpoint, acting as an [[API gateway]].
+External endpoint, acting as an [[API Gateway]].
 
 Needs cert for external facing TLS. Can use Cert-Manager tool for this.
 
