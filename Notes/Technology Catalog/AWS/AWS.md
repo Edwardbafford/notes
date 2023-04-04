@@ -39,30 +39,37 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 # Services
 
 ## Access
-
 - [[IAM]]
 
 ## Networking
-
 - [[Route 53]]
 - [[ELB]]
+- [[CloudFront]]
 
 ## Compute
-
 - [[EC2]]
 
 ## Storage
-
 - [[EC2 Instance Store]]
 - [[EBS]]
 - [[EFS]]
+- [[S3]]
+- [[FSx]]
 
-### Database
-
+#### Database
 - [[RDS]]
 - [[Aurora]]
 - [[ElastiCache]]
 
-### Devops
+#### Other
+- [[AWS Snow]]
+- [[Storage Gateway]]
+- [[AWS Transfer Family]]
+- [[AWS DataSync]]
 
+## Integration
+- [[SQS]]
+- [[SNS]]
+
+## Devops
 - [[Elastic Beanstalk]]

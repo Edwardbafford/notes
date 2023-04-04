@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1da93c5f88cd5c15",
+        "id": "63d7045ef69721fb",
         "type": "tabs",
         "children": [
           {
-            "id": "8198f18613a9424c",
+            "id": "2b07a918eea28f98",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Other/Access Control List.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31c890ed78baad40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/Design/Identity Management.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Design/Identity Management.md",
+                "file": "Technology Catalog/AWS/Services/SNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Design/Identity Management.md",
+                "file": "Technology Catalog/AWS/Services/SNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Design/Identity Management.md"
+                "file": "Technology Catalog/AWS/Services/SNS.md"
               }
             }
           }
@@ -158,15 +141,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31c890ed78baad40",
+  "active": "9dda89c70e5e99be",
   "lastOpenFiles": [
-    "Software Engineering/Other/Access Control List.md",
+    "Technology Catalog/AWS/AWS.md",
+    "Technology Catalog/AWS/Services/SNS.md",
+    "Technology Catalog/AWS/Services/SQS.md",
+    "Technology Catalog/AWS/Services/AWS DataSync.md",
+    "Technology Catalog/AWS/Services/AWS Transfer Family.md",
+    "Technology Catalog/AWS/Services/Storage Gateway.md",
+    "Technology Catalog/AWS/Services/FSx.md",
+    "Technology Catalog/AWS/Services/AWS Snow.md",
+    "Global Accelerator.md",
+    "Technology Catalog/AWS/Services/CloudFront.md",
+    "Technology Catalog/AWS/Services/S3.md",
     "Software Engineering/Design/Identity Management.md",
+    "Software Engineering/Other/Access Control List.md",
     "Cyber Security/Application Security.md",
     "Software Engineering/Other",
     "Software Engineering/Design",
     "Technology Catalog/AWS/Services/Elastic Beanstalk.md",
-    "Technology Catalog/AWS/AWS.md",
     "Technology Catalog/AWS/Services/Route 53.md",
     "Technology Catalog/AWS/Services/CloudWatch.md",
     "Software Engineering/Architecture/DNS.md",
@@ -178,16 +171,6 @@
     "Software Engineering/Architecture/API Gateway.md",
     "Technology Catalog/Other/Redis.md",
     "Technology Catalog/AWS/Services/EC2 Instance Store.md",
-    "Technology Catalog/AWS/Services/RDS.md",
-    "Technology Catalog/AWS/Services/EC2.md",
-    "Technology Catalog/AWS/Services/ELB.md",
-    "Technology Catalog/AWS/Services/EFS.md",
-    "Technology Catalog/AWS/Services/EBS.md",
-    "Technology Catalog/AWS/Concepts/Elastic Network Inferface.md",
-    "Technology Catalog/AWS/Concepts/Elastic IP.md",
-    "Technology Catalog/AWS/Concepts/Security Group.md",
-    "Technology Catalog/Standard/CORS.md",
-    "Technology Catalog/Other/Maven.md",
     "Technology Catalog/Containers/Service Mesh",
     "Technology Catalog/AWS/Concepts",
     "Software Engineering/Architecture",

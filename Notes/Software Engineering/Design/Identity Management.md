@@ -11,7 +11,6 @@ Identity management systems should be single sign on servers that use standardiz
 
 
 ## Identity Management Features
-
 - Provisioning
 - [[Authentication]]
 - [[Authorization]]
@@ -21,3 +20,10 @@ Identity management systems should be single sign on servers that use standardiz
 - Logout
 - Recovery
 - Deprovisioning
+
+
+## Frameworks
+- [[OAuth2]]
+- [[OpenID Connect]]
+- [[SAML]]
+
