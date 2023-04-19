@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "63d7045ef69721fb",
+        "id": "19c8e548d9af0ca1",
         "type": "tabs",
         "children": [
           {
-            "id": "2b07a918eea28f98",
+            "id": "10ce9fe4f594e36d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Technology Catalog/Standards/OAuth2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/AWS/Services/SNS.md",
+                "file": "Technology Catalog/Standards/OAuth2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/AWS/Services/SNS.md",
+                "file": "Technology Catalog/Standards/OAuth2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/AWS/Services/SNS.md"
+                "file": "Technology Catalog/Standards/OAuth2.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -141,10 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9dda89c70e5e99be",
+  "active": "10ce9fe4f594e36d",
   "lastOpenFiles": [
-    "Technology Catalog/AWS/AWS.md",
+    "Technology Catalog/OAuth2 Grants/Authorization Code Grant.md",
+    "Technology Catalog/Standards/OAuth2.md",
+    "Technology Catalog/OAuth2 Grants/Client Credentials Grant.md",
+    "Technology Catalog/OAuth2 Grants",
+    "Software Engineering/Design/Identity Management.md",
+    "Cyber Security/Authentication.md",
+    "Software Projects.md",
     "Technology Catalog/AWS/Services/SNS.md",
+    "Technology Catalog/AWS/AWS.md",
     "Technology Catalog/AWS/Services/SQS.md",
     "Technology Catalog/AWS/Services/AWS DataSync.md",
     "Technology Catalog/AWS/Services/AWS Transfer Family.md",
@@ -154,7 +166,6 @@
     "Global Accelerator.md",
     "Technology Catalog/AWS/Services/CloudFront.md",
     "Technology Catalog/AWS/Services/S3.md",
-    "Software Engineering/Design/Identity Management.md",
     "Software Engineering/Other/Access Control List.md",
     "Cyber Security/Application Security.md",
     "Software Engineering/Other",
@@ -166,16 +177,11 @@
     "Software Engineering/Architecture/Domain Registrar.md",
     "Software Engineering/Architecture/Cache.md",
     "Technology Catalog/AWS/Services/ElastiCache.md",
-    "Technology Catalog/Other/Memcached.md",
-    "Technology Catalog/AWS/Services/Aurora.md",
-    "Software Engineering/Architecture/API Gateway.md",
-    "Technology Catalog/Other/Redis.md",
-    "Technology Catalog/AWS/Services/EC2 Instance Store.md",
     "Technology Catalog/Containers/Service Mesh",
     "Technology Catalog/AWS/Concepts",
     "Software Engineering/Architecture",
     "Technology Catalog/Containers",
-    "Technology Catalog/Standard",
+    "Technology Catalog/Standards",
     "Technology Catalog/AWS/Services",
     "___/Macaroon.jpg",
     "___/OAuth2.jpg",
@@ -183,7 +189,6 @@
     "___/csrf-token.png",
     "___/csrf-token.png.crdownload",
     "___/cert-chain.png",
-    "images",
     "___/HMAC.jpg",
     "___/API Security.jpg",
     "Tutorial/Untitled.canvas",
