@@ -40,14 +40,18 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 
 ## Access
 - [[IAM]]
+- [[Cognito]]
 
 ## Networking
 - [[Route 53]]
 - [[ELB]]
 - [[CloudFront]]
+- [[AWS API Gateway]]
 
 ## Compute
 - [[EC2]]
+- [[Lambda]]
+- [[Step Function]]
 
 ## Storage
 - [[EC2 Instance Store]]
@@ -60,6 +64,11 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 - [[RDS]]
 - [[Aurora]]
 - [[ElastiCache]]
+- [[DynamoDB]]
+- [[Document DB]]
+- [[Neptune]]
+- [[Keyspaces]]
+- [[Timestream]]
 
 #### Other
 - [[AWS Snow]]
@@ -70,6 +79,25 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 ## Integration
 - [[SQS]]
 - [[SNS]]
+- [[Kinesis Streams]]
+- [[Kinesis Firehouse]]
+- [[Amazon MQ]]
+
+## Containers
+- [[ECS]]
+- [[ECR]]
+- [[EKS]]
+
+## Serverless
+- [[Lambda]]
+- [[DynamoDB]]
+- [[AWS API Gateway]]
+- [[Step Function]]
+- [[Cognito]]
+
+## Data & Analytics
+- [[Athena]]
+- [[Redshift]]
 
 ## Devops
 - [[Elastic Beanstalk]]
