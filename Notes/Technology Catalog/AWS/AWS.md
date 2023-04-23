@@ -52,6 +52,9 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 - [[EC2]]
 - [[Lambda]]
 - [[Step Function]]
+- [[SQS]]
+- [[SNS]]
+- [[Amazon MQ]]
 
 ## Storage
 - [[EC2 Instance Store]]
@@ -76,13 +79,6 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 - [[AWS Transfer Family]]
 - [[AWS DataSync]]
 
-## Integration
-- [[SQS]]
-- [[SNS]]
-- [[Kinesis Streams]]
-- [[Kinesis Firehouse]]
-- [[Amazon MQ]]
-
 ## Containers
 - [[ECS]]
 - [[ECR]]
@@ -98,6 +94,30 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 ## Data & Analytics
 - [[Athena]]
 - [[Redshift]]
+- [[Open Search]]
+- [[EMR]]
+- [[Quick Sight]]
+- [[Glue]]
+- [[Lake Formation]]
+- [[Kinesis Streams]]
+- [[MSK]]
+- [[Kinesis Firehouse]]
+- [[Kinesis Data Analytics]]
+- [[Kinesis Data Analytics for Apache Flink]]
+
+## Machine Learning
+- [[Amazon Rekognition]]
+- [[Amazon Transcribe]]
+- [[Amazon Polly]]
+- [[Amazon Translate]]
+- [[Amazon Connect]]
+- [[Amazon Lex]]
+- [[Amazon Comprehend]]
+- [[Amazon SageMaker]]
+- [[Amazon Forecast]]
+- [[Amazon Kendra]]
+- [[Amazon Personalize]]
+- [[Amazon Textract]]
 
 ## Devops
 - [[Elastic Beanstalk]]

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "197920ebe5613647",
+        "id": "3edd8a11dae6b947",
         "type": "tabs",
         "children": [
           {
-            "id": "8693e75e69f5c44d",
+            "id": "70ac8d8a05981f95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Standards/OpenID Connect.md",
+                "file": "Technology Catalog/AWS/AWS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Standards/OpenID Connect.md",
+                "file": "Technology Catalog/AWS/AWS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Standards/OpenID Connect.md",
+                "file": "Technology Catalog/AWS/AWS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Standards/OpenID Connect.md"
+                "file": "Technology Catalog/AWS/AWS.md"
               }
             }
           }
@@ -146,34 +146,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8693e75e69f5c44d",
+  "active": "70ac8d8a05981f95",
   "lastOpenFiles": [
-    "Technology Catalog/Standards/OAuth2 Flow/OIDC Authorization Code Flow.md",
-    "Technology Catalog/Standards/OAuth2 Flow/Authorization Code Grant.md",
-    "Technology Catalog/Standards/OpenID Connect.md",
-    "Authorization Code Flow.md",
-    "Technology Catalog/AWS/Services/Redshift.md",
+    "Technology Catalog/AWS/Services/Amazon Textract.md",
     "Technology Catalog/AWS/AWS.md",
-    "Technology Catalog/AWS/Services/Athena.md",
-    "Technology Catalog/AWS/Services/Timestream.md",
+    "Technology Catalog/AWS/Services/Amazon Personalize.md",
+    "Technology Catalog/AWS/Services/Amazon Kendra.md",
+    "Technology Catalog/AWS/Services/Amazon Forecast.md",
+    "Technology Catalog/AWS/Services/Amazon SageMaker.md",
+    "Technology Catalog/AWS/Services/Amazon Comprehend.md",
+    "Technology Catalog/AWS/Services/Amazon Lex.md",
+    "Technology Catalog/AWS/Services/Amazon Connect.md",
+    "Technology Catalog/AWS/Services/Amazon Translate.md",
+    "Technology Catalog/AWS/Services/Amazon Polly.md",
+    "Technology Catalog/AWS/Services/Amazon Transcribe.md",
+    "Technology Catalog/AWS/Services/Amazon Rekognition.md",
+    "Technology Catalog/AWS/Services/MSK.md",
+    "Technology Catalog/AWS/Services/Kinesis Data Analytics for Apache Flink.md",
+    "Technology Catalog/AWS/Services/Kinesis Data Analytics.md",
+    "Technology Catalog/Data Engineering.md",
+    "Technology Catalog/Data Engineering",
+    "Technology Catalog/AWS/Services/Lake Formation.md",
+    "Technology Catalog/AWS/Services/Glue.md",
+    "Technology Catalog/AWS/Services/Quick Sight.md",
+    "Technology Catalog/AWS/Services/EMR.md",
+    "Technology Catalog/AWS/Services/Open Search.md",
+    "Technology Catalog/AWS/Services/AWS Transfer Family.md",
     "Technology Catalog/AWS/Services/Keyspaces.md",
-    "Technology Catalog/AWS/Services/Neptune.md",
-    "Technology Catalog/AWS/Services/Document DB.md",
-    "Technology Catalog/AWS/Services/Cognito.md",
-    "Technology Catalog/AWS/Services/Step Function.md",
-    "Technology Catalog/AWS/Services/AWS API Gateway.md",
-    "Technology Catalog/AWS/Services/DynamoDB.md",
-    "Technology Catalog/AWS/Services/Lambda.md",
-    "Technology Catalog/AWS/Concepts/Elastic Network Inferface.md",
-    "Technology Catalog/AWS/Services/EKS.md",
-    "Technology Catalog/AWS/Services/ECR.md",
-    "Technology Catalog/AWS/Services/ECS.md",
-    "Technology Catalog/AWS/Services/Amazon MQ.md",
-    "Technology Catalog/AWS/Services/Kinesis Firehouse.md",
-    "Technology Catalog/AWS/Services/Kinesis Streams.md",
-    "Software Projects.md",
-    "Technology Catalog/Standards/OAuth2.md",
-    "Technology Catalog/Standards/OAuth2 Flow/Client Credentials Grant.md",
+    "Technology Catalog/Standards/OpenID Connect.md",
+    "Technology Catalog/Standards/OAuth2 Flow/OIDC Authorization Code Flow.md",
     "Technology Catalog/Standards/OAuth2 Flow",
     "Software Engineering/Other",
     "Software Engineering/Design",
@@ -187,7 +188,6 @@
     "___/OAuth2.jpg",
     "___/OAuth.jpg",
     "___/csrf-token.png",
-    "___/csrf-token.png.crdownload",
     "___/cert-chain.png",
     "___/HMAC.jpg",
     "___/API Security.jpg",
