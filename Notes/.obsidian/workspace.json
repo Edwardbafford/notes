@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d7df0aad8ee0856",
+        "id": "197920ebe5613647",
         "type": "tabs",
         "children": [
           {
-            "id": "204107b0482513ef",
+            "id": "8693e75e69f5c44d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redshift.md",
+                "file": "Technology Catalog/Standards/OpenID Connect.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Redshift.md",
+                "file": "Technology Catalog/Standards/OpenID Connect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Redshift.md",
+                "file": "Technology Catalog/Standards/OpenID Connect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redshift.md"
+                "file": "Technology Catalog/Standards/OpenID Connect.md"
               }
             }
           }
@@ -146,10 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "204107b0482513ef",
+  "active": "8693e75e69f5c44d",
   "lastOpenFiles": [
+    "Technology Catalog/Standards/OAuth2 Flow/OIDC Authorization Code Flow.md",
+    "Technology Catalog/Standards/OAuth2 Flow/Authorization Code Grant.md",
+    "Technology Catalog/Standards/OpenID Connect.md",
+    "Authorization Code Flow.md",
+    "Technology Catalog/AWS/Services/Redshift.md",
     "Technology Catalog/AWS/AWS.md",
-    "Redshift.md",
     "Technology Catalog/AWS/Services/Athena.md",
     "Technology Catalog/AWS/Services/Timestream.md",
     "Technology Catalog/AWS/Services/Keyspaces.md",
@@ -169,12 +173,8 @@
     "Technology Catalog/AWS/Services/Kinesis Streams.md",
     "Software Projects.md",
     "Technology Catalog/Standards/OAuth2.md",
-    "Technology Catalog/OAuth2 Grants/Authorization Code Grant.md",
-    "Technology Catalog/OAuth2 Grants/Client Credentials Grant.md",
-    "Technology Catalog/OAuth2 Grants",
-    "Software Engineering/Design/Identity Management.md",
-    "Cyber Security/Authentication.md",
-    "Technology Catalog/AWS/Services/SNS.md",
+    "Technology Catalog/Standards/OAuth2 Flow/Client Credentials Grant.md",
+    "Technology Catalog/Standards/OAuth2 Flow",
     "Software Engineering/Other",
     "Software Engineering/Design",
     "Technology Catalog/Containers/Service Mesh",
