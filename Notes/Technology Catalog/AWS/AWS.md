@@ -40,7 +40,10 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 
 ## Access
 - [[IAM]]
+- [[IAM Identity Center]]
 - [[Cognito]]
+- [[AWS Organizations]]
+- [[AWS Control Tower]]
 
 ## Networking
 - [[Route 53]]
@@ -121,3 +124,12 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 
 ## Devops
 - [[Elastic Beanstalk]]
+
+## Monitoring
+- [[CloudWatch]]
+- [[EventBridge]]
+- [[CloudTrail]]
+- [[AWS Config]]
+
+## Security
+- [[KMS]]

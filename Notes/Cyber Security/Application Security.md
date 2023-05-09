@@ -1,7 +1,4 @@
 
-## Todo
-* [[Service-to-Service]]
-* [[Secret Management]]
 
 ## Incoming Requests
 

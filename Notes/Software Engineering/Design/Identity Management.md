@@ -27,3 +27,11 @@ Identity management systems should be single sign on servers that use standardiz
 - [[OpenID Connect]]
 - [[SAML]]
 
+
+## Authentication Broker
+
+Tools for enabling support for multiple authentication protocols.
+
+Protocol used between applications and the authentication broker.
+
+Authentication broker supports many protocols to integrated with other identity providers.

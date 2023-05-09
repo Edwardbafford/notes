@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3edd8a11dae6b947",
+        "id": "3df1090b08435d28",
         "type": "tabs",
         "children": [
           {
-            "id": "70ac8d8a05981f95",
+            "id": "aae798245c4eec41",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,6 +62,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "0399d86b88e3f8cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -146,35 +154,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70ac8d8a05981f95",
+  "active": "9dda89c70e5e99be",
   "lastOpenFiles": [
-    "Technology Catalog/AWS/Services/Amazon Textract.md",
+    "Technology Catalog/AWS/Services/KMS.md",
     "Technology Catalog/AWS/AWS.md",
-    "Technology Catalog/AWS/Services/Amazon Personalize.md",
-    "Technology Catalog/AWS/Services/Amazon Kendra.md",
-    "Technology Catalog/AWS/Services/Amazon Forecast.md",
-    "Technology Catalog/AWS/Services/Amazon SageMaker.md",
-    "Technology Catalog/AWS/Services/Amazon Comprehend.md",
-    "Technology Catalog/AWS/Services/Amazon Lex.md",
-    "Technology Catalog/AWS/Services/Amazon Connect.md",
-    "Technology Catalog/AWS/Services/Amazon Translate.md",
-    "Technology Catalog/AWS/Services/Amazon Polly.md",
-    "Technology Catalog/AWS/Services/Amazon Transcribe.md",
-    "Technology Catalog/AWS/Services/Amazon Rekognition.md",
-    "Technology Catalog/AWS/Services/MSK.md",
-    "Technology Catalog/AWS/Services/Kinesis Data Analytics for Apache Flink.md",
-    "Technology Catalog/AWS/Services/Kinesis Data Analytics.md",
-    "Technology Catalog/Data Engineering.md",
-    "Technology Catalog/Data Engineering",
-    "Technology Catalog/AWS/Services/Lake Formation.md",
-    "Technology Catalog/AWS/Services/Glue.md",
-    "Technology Catalog/AWS/Services/Quick Sight.md",
-    "Technology Catalog/AWS/Services/EMR.md",
-    "Technology Catalog/AWS/Services/Open Search.md",
-    "Technology Catalog/AWS/Services/AWS Transfer Family.md",
-    "Technology Catalog/AWS/Services/Keyspaces.md",
+    "Technology Catalog/AWS/Services/AWS Control Tower.md",
+    "Technology Catalog/AWS/Services/AWS Active Directory.md",
+    "Technology Catalog/AWS/Services/IAM Identity Center.md",
+    "Technology Catalog/AWS/Services/AWS Organizations.md",
+    "Technology Catalog/AWS/Services/AWS Config.md",
+    "Technology Catalog/AWS/Services/CloudTrail.md",
+    "Technology Catalog/AWS/Services/EventBridge.md",
+    "Technology Catalog/AWS/Services/CloudWatch.md",
+    "Technology Catalog/Standards/SAML.md",
     "Technology Catalog/Standards/OpenID Connect.md",
-    "Technology Catalog/Standards/OAuth2 Flow/OIDC Authorization Code Flow.md",
+    "Technology Catalog/Standards/OAuth2.md",
+    "Software Engineering/Design/Identity Management.md",
+    "Software Engineering/Design/Devops.md",
+    "Devops/Devops.md",
+    "Cyber Security/Application Security.md",
+    "Cyber Security/Secret Management.md",
+    "Cyber Security/Service-to-Service.md",
+    "Technology Catalog/AWS/Services/EMR.md",
+    "Technology Catalog/AWS/Services/Redshift.md",
+    "Technology Catalog/AWS/Services/Amazon MQ.md",
+    "Technology Catalog/AWS/Services/Amazon Kendra.md",
+    "Technology Catalog/AWS/Services/Amazon Textract.md",
+    "Technology Catalog/AWS/Services/Amazon Personalize.md",
+    "Technology Catalog/AWS/Services/Amazon Forecast.md",
+    "Technology Catalog/Data Engineering",
     "Technology Catalog/Standards/OAuth2 Flow",
     "Software Engineering/Other",
     "Software Engineering/Design",
