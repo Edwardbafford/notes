@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/AWS/AWS.md",
+                "file": "Software Engineering/Design/CI CD.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/AWS/AWS.md",
+                "file": "Software Engineering/Design/CI CD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/AWS/AWS.md",
+                "file": "Software Engineering/Design/CI CD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/AWS/AWS.md"
+                "file": "Software Engineering/Design/CI CD.md"
               }
             }
           }
@@ -154,10 +154,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9dda89c70e5e99be",
+  "active": "aae798245c4eec41",
   "lastOpenFiles": [
-    "Technology Catalog/AWS/Services/KMS.md",
+    "Software Engineering/Design/Identity Management.md",
+    "Software Engineering/Design/CI CD.md",
+    "Technology Catalog/Containers/Docker.md",
+    "Technology Catalog/Containers/Service Mesh/Linkerd.md",
+    "Technology Catalog/Containers/Kubernetes.md",
     "Technology Catalog/AWS/AWS.md",
+    "Technology Catalog/AWS/Services/KMS.md",
     "Technology Catalog/AWS/Services/AWS Control Tower.md",
     "Technology Catalog/AWS/Services/AWS Active Directory.md",
     "Technology Catalog/AWS/Services/IAM Identity Center.md",
@@ -169,8 +174,6 @@
     "Technology Catalog/Standards/SAML.md",
     "Technology Catalog/Standards/OpenID Connect.md",
     "Technology Catalog/Standards/OAuth2.md",
-    "Software Engineering/Design/Identity Management.md",
-    "Software Engineering/Design/Devops.md",
     "Devops/Devops.md",
     "Cyber Security/Application Security.md",
     "Cyber Security/Secret Management.md",
@@ -179,9 +182,6 @@
     "Technology Catalog/AWS/Services/Redshift.md",
     "Technology Catalog/AWS/Services/Amazon MQ.md",
     "Technology Catalog/AWS/Services/Amazon Kendra.md",
-    "Technology Catalog/AWS/Services/Amazon Textract.md",
-    "Technology Catalog/AWS/Services/Amazon Personalize.md",
-    "Technology Catalog/AWS/Services/Amazon Forecast.md",
     "Technology Catalog/Data Engineering",
     "Technology Catalog/Standards/OAuth2 Flow",
     "Software Engineering/Other",

@@ -1,5 +1,16 @@
+## Containers
 
 Software for building Linux containers.
+- Namespaces to provide isolation
+- cgroups to restrict CPU, memory, and disk consumption
+
+#### Networking
+
+Manipulates host iptables to control how the containers interact with other network entities.
+
+Docker containers each have a unique IP address, allowing them to act as seperate network entities.
+
+## Basics
 
 **Dockerfile** scripts the docker daemon to build an **image**
 

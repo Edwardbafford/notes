@@ -23,7 +23,7 @@
 * Endpoints should not expose any revealing error messages
 * Limit [[CORS]]
 * Implement [[Container Security|container security]] if applicable
-* Incorporate security into the [[Devops]] process
+* Incorporate security into the [[CI CD]] process
 	* Testing
 	* Code Reviews
 	* Static code analyzers
