@@ -11,7 +11,26 @@ Basic Flow
 	3. Save artifacts
 3. When deploying reference an environment and version to automate
 
-Technologies
+
+## Technologies
 - [[Git]] as a repository
 - [[Docker]] for simplifying the build, test, and deploy processes
+* [[Prometheus]] for monitoring
+* [[Apache Bench]] for load testing
+
+
+## Monitoring
+
+- CPU
+- Memory
+- Disk Space
+
+For containers
+- CPU
+- Throttled CPU - time throttled by container
+- Memory usage
+- Memory fail counters - no. of memory requests rejected by containers
+- Swag - using swap is a sign of memory hungry containers
+- Disk I/o
+- Network metrics
 
