@@ -4,59 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "57cad15b3a039424",
+        "id": "c913630ff552e3cc",
         "type": "tabs",
         "children": [
           {
-            "id": "d9db74b95d70cd5f",
+            "id": "961ef88ae47bcd9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Containers/Kubernetes/ConfigMaps.md",
+                "file": "Technology Catalog/Containers/Kubernetes/StatefulSet.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "224266b7f10b3d34",
+            "id": "6edb1b24ab643d95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Containers/Kubernetes/Volumes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1acccc5e706dc346",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technology Catalog/Containers/Kubernetes/Secrets.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b6e53ec7aa887f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technology Catalog/Containers/Kubernetes/Pods.md",
+                "file": "Technology Catalog/Containers/Kubernetes/StorageClass.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Containers/Kubernetes/Pods.md",
+                "file": "Technology Catalog/Containers/Kubernetes/StatefulSet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Containers/Kubernetes/Pods.md",
+                "file": "Technology Catalog/Containers/Kubernetes/StatefulSet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Containers/Kubernetes/Pods.md"
+                "file": "Technology Catalog/Containers/Kubernetes/StatefulSet.md"
               }
             }
           }
@@ -191,17 +166,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b6e53ec7aa887f0",
+  "active": "961ef88ae47bcd9a",
   "lastOpenFiles": [
-    "Technology Catalog/Containers/Kubernetes/Secrets.md",
-    "Technology Catalog/Containers/Kubernetes/ConfigMaps.md",
+    "Technology Catalog/Containers/Kubernetes/StorageClass.md",
     "Technology Catalog/Containers/Kubernetes/Kubernetes.md",
-    "Technology Catalog/Containers/Kubernetes/Pods.md",
+    "Technology Catalog/Containers/Kubernetes/PersistentVolume.md",
+    "Technology Catalog/Containers/Kubernetes/StatefulSet.md",
     "Technology Catalog/Containers/Kubernetes/Volumes.md",
+    "Technology Catalog/Containers/Kubernetes/Pods.md",
+    "Technology Catalog/Containers/Kubernetes/Service.md",
+    "Technology Catalog/Containers/Kubernetes/HorizontalPodAutoscaler.md",
+    "Technology Catalog/Containers/Kubernetes/Deployment.md",
+    "Technology Catalog/Containers/Kubernetes/Ingress.md",
+    "Technology Catalog/Containers/Docker.md",
+    "Technology Catalog/Containers/Kubernetes/ReplicaSet.md",
+    "Technology Catalog/Containers/Kubernetes/ConfigMaps.md",
+    "Technology Catalog/Containers/Kubernetes/Secrets.md",
     "Technology Catalog/Containers/Kubernetes",
     "Technology Catalog/AWS/Services/Amazon SageMaker.md",
     "Technology Catalog/AWS/AWS.md",
-    "Technology Catalog/Containers/Docker.md",
     "Software Engineering/Design/CI CD.md",
     "Technology Catalog/Other/Apache Bench.md",
     "Technology Catalog/Other/Prometheus.md",
@@ -212,14 +195,6 @@
     "Technology Catalog/AWS/Services/AWS Active Directory.md",
     "Technology Catalog/AWS/Services/IAM Identity Center.md",
     "Technology Catalog/AWS/Services/AWS Organizations.md",
-    "Technology Catalog/AWS/Services/AWS Config.md",
-    "Technology Catalog/AWS/Services/CloudTrail.md",
-    "Technology Catalog/AWS/Services/EventBridge.md",
-    "Technology Catalog/AWS/Services/CloudWatch.md",
-    "Technology Catalog/Standards/SAML.md",
-    "Technology Catalog/Standards/OpenID Connect.md",
-    "Technology Catalog/Standards/OAuth2.md",
-    "Devops/Devops.md",
     "Technology Catalog/Data Engineering",
     "Technology Catalog/Standards/OAuth2 Flow",
     "Software Engineering/Other",

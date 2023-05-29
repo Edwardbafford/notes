@@ -57,9 +57,20 @@ Create/update resource
 - apiVersion - resource version
 - kind - kind of resource
 - metadata - name and label data for identifying and grouping resources
+- spec - resource specifications
 
 # Components
 - [[Pods]]
-- [[Volumes]]
 - [[ConfigMaps]]
 - [[Secrets]]
+- [[Volumes]]
+- [[PersistentVolume]]
+- [[StorageClass]]
+- [[ReplicaSet]]
+- [[StatefulSet]]
+- [[Deployment]]
+- [[HorizontalPodAutoscaler]]
+- [[Service]]
+- [[Ingress]]
+
+Namespaces are used to partition the cluster into multiple virtual clusters

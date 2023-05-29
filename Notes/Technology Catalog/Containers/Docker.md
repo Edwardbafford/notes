@@ -84,8 +84,6 @@ Flatten images (remove layers) for potentially better runtime performance.
 `docker import ...`
 
 
-
-
 # Running
 
 **Containers** are created from **Images**
@@ -113,6 +111,8 @@ Starts a stopped container
 
 `docker rm CONTAINER`
 Deletes a stopped container
+
+Use busybox image for testing!
 
 ## Logging
 
