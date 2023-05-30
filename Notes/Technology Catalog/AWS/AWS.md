@@ -37,7 +37,6 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 
 
 # Services
-
 ## Access
 - [[IAM]]
 - [[IAM Identity Center]]
@@ -50,10 +49,15 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 - [[ELB]]
 - [[CloudFront]]
 - [[AWS API Gateway]]
+- [[VPC]]
+	- [[VPC Flow Logs]]
+- [[Direct Connect]]
+- [[Transit Gateway]]
 
 ## Compute
 - [[EC2]]
 - [[Lambda]]
+- [[AWS Batch]]
 - [[Step Function]]
 - [[SQS]]
 - [[SNS]]
@@ -124,6 +128,7 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 
 ## Devops
 - [[Elastic Beanstalk]]
+- [[CloudFormation]]
 
 ## Monitoring
 - [[CloudWatch]]
@@ -133,3 +138,27 @@ CLI, SDK, or Requests use management keys which must be created through the cons
 
 ## Security
 - [[KMS]]
+- [[SSM Parameter Store]]
+- [[AWS Secrets Manager]]
+- [[AWS Certificate Manager]]
+- [[WAF]]
+- [[AWS Shield]]
+- [[AWS Firewall Manager]]
+- [[Amazon Guard Duty]]
+- [[Amazon Inspector]]
+- [[AWS Macie]]
+- [[AWS Network Firewall]]
+
+## Disaster Recovery
+- [[Database Migration Service]]
+- [[AWS Backup]]
+
+## Other
+- [[Amazon Simple Email Service]]
+- [[Amazon Pinpoint]]
+- [[AWS Systems Manager]]
+
+## Management
+- [[Cost Explorer]]
+- [[AWS Well Architected Tool]]
+- [[AWS Trusted Advisor]]
