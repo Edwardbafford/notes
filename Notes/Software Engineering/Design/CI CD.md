@@ -14,9 +14,23 @@ Basic Flow
 
 ## Technologies
 - [[Git]] as a repository
+- [[Terraform]] for infrastructure as code
 - [[Docker]] for simplifying the build, test, and deploy processes
 * [[Prometheus]] for monitoring
 * [[Apache Bench]] for load testing
+
+
+## IaC
+
+Infrastructure as code
+
+Use code to define infrastructure
+
+Features
+- Declarative - simplify the definition
+- Idempotent - re-runs don't cause any issues
+- Robust to infrastructure changes
+- Integrate with Cloud Platforms
 
 
 ## Monitoring

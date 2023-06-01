@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9023a8cd85b5ed47",
+        "id": "1c0b0ac7f921de7b",
         "type": "tabs",
         "children": [
           {
-            "id": "027a7fdfdc39a009",
+            "id": "1e2f1ffc5ad3ef2a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Technology Catalog/Devops/Terraform.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Technology Catalog/Devops/Terraform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technology Catalog/Devops/Terraform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technology Catalog/Devops/Terraform.md"
+              }
             }
           }
         ],
@@ -146,8 +154,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "027a7fdfdc39a009",
+  "active": "1e2f1ffc5ad3ef2a",
   "lastOpenFiles": [
+    "Technology Catalog/Other/Hashicorp.md",
+    "Technology Catalog/Devops/Terraform.md",
+    "Technology Catalog/Devops",
+    "Software Engineering/Design/CI CD.md",
+    "Untitled.canvas",
     "Technology Catalog/AWS/Services/AWS Trusted Advisor.md",
     "Technology Catalog/AWS/AWS.md",
     "Technology Catalog/AWS/Services/AWS Well Architected Tool.md",
@@ -172,18 +185,14 @@
     "Technology Catalog/AWS/Services/Amazon Inspector.md",
     "Technology Catalog/AWS/Services/Amazon Guard Duty.md",
     "Technology Catalog/AWS/Services/AWS Firewall Manager.md",
-    "Technology Catalog/AWS/Services/AWS Shield.md",
-    "Technology Catalog/AWS/Services/WAF.md",
-    "Technology Catalog/AWS/Services/AWS Certificate Manager.md",
     "Technology Catalog/Containers/Kubernetes/Resources",
     "Technology Catalog/Containers/Kubernetes",
     "Technology Catalog/Data Engineering",
-    "Technology Catalog/Standards/OAuth2 Flow",
+    "Software Engineering/Standards/OAuth2 Flow",
     "Software Engineering/Other",
     "Software Engineering/Design",
     "Technology Catalog/Containers/Service Mesh",
     "Technology Catalog/AWS/Concepts",
-    "Software Engineering/Architecture",
     "___/Macaroon.jpg",
     "___/OAuth2.jpg",
     "___/OAuth.jpg",
@@ -194,7 +203,6 @@
     "Tutorial/Untitled.canvas",
     "images/Dependency Parsing.jpg",
     "Test.canvas",
-    "Untitled.canvas",
     "Untitled 1.canvas"
   ]
 }
