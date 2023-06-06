@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a0131ca498a15d7e",
+        "id": "8a453575831de074",
         "type": "tabs",
         "children": [
           {
-            "id": "f3d65e0f3e720f00",
+            "id": "f1e79e8abd5e079e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Languages/Python/Packages.md",
+                "file": "Technology Catalog/Devops/Ansible.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Languages/Python/Packages.md",
+                "file": "Technology Catalog/Devops/Ansible.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Languages/Python/Packages.md",
+                "file": "Technology Catalog/Devops/Ansible.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Languages/Python/Packages.md"
+                "file": "Technology Catalog/Devops/Ansible.md"
               }
             }
           }
@@ -154,10 +154,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3d65e0f3e720f00",
+  "active": "f1e79e8abd5e079e",
   "lastOpenFiles": [
-    "Technology Catalog/Languages/Python/Module.md",
+    "Technology Catalog/Devops/Terraform.md",
+    "Technology Catalog/Devops/Ansible.md",
+    "Software Engineering/Design/DevOps.md",
     "Technology Catalog/Languages/Python/Packages.md",
+    "Technology Catalog/Languages/Python/Module.md",
     "Technology Catalog/Languages/Untitled.md",
     "Technology Catalog/Languages/Python",
     "Technology Catalog/Languages",
@@ -171,10 +174,8 @@
     "Technology Catalog/AWS/Services/EMR.md",
     "Technology Catalog/AWS/Services/Athena.md",
     "Technology Catalog/AWS/Services/Open Search.md",
-    "Technology Catalog/Devops/Terraform.md",
     "Technology Catalog/Other/Hashicorp.md",
     "Technology Catalog/Devops",
-    "Software Engineering/Design/CI CD.md",
     "Untitled.canvas",
     "Technology Catalog/AWS/Services/AWS Trusted Advisor.md",
     "Technology Catalog/AWS/Services/AWS Well Architected Tool.md",
@@ -185,7 +186,6 @@
     "Technology Catalog/AWS/Services/Amazon Simple Email Service.md",
     "Technology Catalog/AWS/Services/CloudFormation.md",
     "Technology Catalog/AWS/Services/AWS Backup.md",
-    "Technology Catalog/AWS/Services/Database Migration Service.md",
     "Software Engineering/Networking",
     "Technology Catalog/Containers/Kubernetes/Resources",
     "Technology Catalog/Containers/Kubernetes",

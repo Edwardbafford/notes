@@ -1,4 +1,6 @@
 
+Set of practices, tools, and cultural for automating and integrating software development and IT operational management.
+
 Continuous Integration - test code as it's updated
 
 Continuous Development - automate the deployment process
@@ -13,8 +15,9 @@ Basic Flow
 
 
 ## Technologies
-- [[Git]] as a repository
+- [[Git]] for version control
 - [[Terraform]] for infrastructure as code
+- [[Ansible]] for configuration as code
 - [[Docker]] for simplifying the build, test, and deploy processes
 * [[Prometheus]] for monitoring
 * [[Apache Bench]] for load testing
@@ -27,10 +30,23 @@ Infrastructure as code
 Use code to define infrastructure
 
 Features
-- Declarative - simplify the definition
-- Idempotent - re-runs don't cause any issues
-- Robust to infrastructure changes
-- Integrate with Cloud Platforms
+- Declarative
+- Idempotent
+- Repeatable
+- Version controlled
+
+
+## CaC
+
+Configuration as code
+
+Manage configurations through code
+
+Features
+- Declarative
+- Idempotent
+- Repeatable
+- Version controlled
 
 
 ## Monitoring
