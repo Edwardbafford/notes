@@ -1,6 +1,30 @@
 
 Set of practices, tools, and cultural for automating and integrating software development and IT operational management.
 
+## Patterns
+
+**Version control** - manage all your code in a way that prevents loss of any data.
+
+**Infrastructure as code** - define your infrastructure as code that can be versioned.
+
+**Configuration as code** - define the configuration process for your infrastructure as code that can be versioned.
+
+**Immutable Infrastructure** - create snapshot artifacts of your configured infrastructure for easy re-use and deployment.
+
+
+## Technologies
+
+- [[Git]] for version control
+- [[Terraform]] for infrastructure as code
+- [[Ansible]] for configuration as code
+- [[Packer]] for building immutable infrastructure with VM snapshots
+- [[Docker]] for simplifying the build, test, and deploy processes
+* [[Prometheus]] for monitoring
+* [[Apache Bench]] for load testing
+
+
+## CI/CD
+
 Continuous Integration - test code as it's updated
 
 Continuous Development - automate the deployment process
@@ -14,39 +38,6 @@ Basic Flow
 3. When deploying reference an environment and version to automate
 
 
-## Technologies
-- [[Git]] for version control
-- [[Terraform]] for infrastructure as code
-- [[Ansible]] for configuration as code
-- [[Docker]] for simplifying the build, test, and deploy processes
-* [[Prometheus]] for monitoring
-* [[Apache Bench]] for load testing
-
-
-## IaC
-
-Infrastructure as code
-
-Use code to define infrastructure
-
-Features
-- Declarative
-- Idempotent
-- Repeatable
-- Version controlled
-
-
-## CaC
-
-Configuration as code
-
-Manage configurations through code
-
-Features
-- Declarative
-- Idempotent
-- Repeatable
-- Version controlled
 
 
 ## Monitoring
