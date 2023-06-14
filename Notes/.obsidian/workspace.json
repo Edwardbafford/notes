@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a2550051af4ed5ef",
+        "id": "246de53c28c8014b",
         "type": "tabs",
         "children": [
           {
-            "id": "2764b0b502b7f9f8",
+            "id": "588b8325d9d9a780",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Technology Catalog/Other/Maven.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Other/Maven.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Other/Maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Technology Catalog/Other/Maven.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -154,10 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2764b0b502b7f9f8",
+  "active": "588b8325d9d9a780",
   "lastOpenFiles": [
+    "Technology Catalog/Containers/Knative.md",
+    "Technology Catalog/Other/Maven/Maven.md",
+    "Technology Catalog/Other/Maven/POM.md",
+    "Technology Catalog/Other/Memcached.md",
+    "Technology Catalog/Other/Maven",
     "Technology Catalog/Languages/Java.md",
-    "Technology Catalog/Other/Maven.md",
     "Software Engineering/Design/DevOps.md",
     "Technology Catalog/Devops/Packer.md",
     "Technology Catalog/Devops/Apache Bench.md",
@@ -183,16 +179,12 @@
     "Untitled.canvas",
     "Technology Catalog/AWS/Services/AWS Trusted Advisor.md",
     "Technology Catalog/AWS/Services/AWS Well Architected Tool.md",
-    "Technology Catalog/AWS/Services/AWS Batch.md",
-    "Technology Catalog/AWS/Services/Cost Explorer.md",
-    "Technology Catalog/AWS/Services/AWS Systems Manager.md",
     "Software Engineering/Networking",
     "Technology Catalog/Containers/Kubernetes/Resources",
     "Technology Catalog/Containers/Kubernetes",
     "Technology Catalog/Data Engineering",
     "Software Engineering/Standards/OAuth2 Flow",
     "Software Engineering/Other",
-    "Software Engineering/Design",
     "___/Macaroon.jpg",
     "___/OAuth2.jpg",
     "___/OAuth.jpg",
