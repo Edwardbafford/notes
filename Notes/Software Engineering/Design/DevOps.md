@@ -1,43 +1,64 @@
 
 Set of practices, tools, and cultural for automating and integrating software development and IT operational management.
 
-## Patterns
 
-**Version control** - manage all your code in a way that prevents loss of any data.
+## Version Control
 
-**Infrastructure as code** - define your infrastructure as code that can be versioned.
+System for tracking all version of a code base so that nothing is very lost.
 
-**Configuration as code** - define the configuration process for your infrastructure as code that can be versioned.
+Everything should be managed through version control.
 
-**Immutable Infrastructure** - create snapshot artifacts of your configured infrastructure for easy re-use and deployment.
-
-
-## Technologies
-
-- [[Git]] for version control
-- [[Terraform]] for infrastructure as code
-- [[Ansible]] for configuration as code
-- [[Packer]] for building immutable infrastructure with VM snapshots
-- [[Docker]] for simplifying the build, test, and deploy processes
-* [[Prometheus]] for monitoring
-* [[Apache Bench]] for load testing
+- [[Git]]
 
 
-## CI/CD
+## Infrastructure as Code
 
-Continuous Integration - test code as it's updated
+Manage applications infrastructure as code so that changes to the infrastructure can be tracked and versioned through a VCS.
 
-Continuous Development - automate the deployment process
-
-Basic Flow
-1. Code is stored in a Repository and updated
-2. Commits to important branches trigger the following process
-	1. Build from source code
-	2. Test source code
-	3. Save artifacts
-3. When deploying reference an environment and version to automate
+- [[Terraform]]
+- [[CloudFormation]]
 
 
+## Configuration as Code
+
+Logic for configuring infrastructure should be managed as code so that changes to the infrastructure configuration can be tracked and versioned through a VCS.
+
+- [[Ansible]]
+- Chef
+- Puppet
+
+Configuration as code can be combined with infrastructure as code to product machine images through [[Packer]]
+
+
+## Continuous Integration
+
+About continuously testing code as it's updated
+
+Post-commit and post-merge
+- build project
+- test project
+- save artifacts (optional)
+- automatically send reports to developers
+
+Technologies
+- Platforms
+	- Github/Gitlab
+	- AWS Code commit
+- [[Jenkins]]
+- Circle CI
+
+
+## Testing
+
+- Unit Testing
+	- Language specific frameworks
+- Integration Testing
+	- API
+	- User Stories
+	- Security Vulnerabilities
+- Load Testing
+	- [[Apache Bench]]
+- User Acceptance
 
 
 ## Monitoring
@@ -55,3 +76,5 @@ For containers
 - Disk I/o
 - Network metrics
 
+Tools
+- [[Prometheus]]
