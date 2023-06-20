@@ -37,6 +37,10 @@ Reference properties within the pom using: `${...}`
 
 Dot path notation is used to reference the property
 
+Secrets should be stored in you settings.xml and not checked into version control.
+
+Pass environment variables into a maven build: `mvn ... -Denvironment....=...`
+
 ### Types
 
 Environment variables -> `${env.VAR_NAME}`
