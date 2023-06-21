@@ -1,0 +1,97 @@
+Modern version control system.
+
+Put anything you want to track in it and never lose any data.
+
+Components
+- Git repository - usually a local and remote instance, used to track your data
+- Git client - interacts with git repositories
+
+
+## Config
+
+When committing changes at the very least `user.name` and `user.email` needs to be configured. This data will be tagged as metadata for each commit.
+
+There is a hierarchy of what sets configuration values
+- command line
+- environment variables
+- repository specific `--local`
+- user specific `--global`
+- system specific `--system`
+
+Set config value
+
+`git config <--local/--gloabl/--system> <VAR> <VALUE>`
+
+Unset config value
+
+`git config --unset <--local/--gloabl/--system> <VAR> <VALUE>`
+
+View all configuration values
+
+`git config -l <--show-scope>`
+
+`--show-scope` will show where the configuration value came from
+
+Set command to an alias
+
+`git config alias.<VAL> <COMMAND>`
+
+
+## Create Repository
+
+`git init -b <DEFAULT_BRANCH> <DIRECTORY>`
+
+Git init will create a hidden `.git` directory which will store appropriate repository metadata.
+
+Create a copy of a repository
+
+`git clone <SRC> <DST>`
+
+Source can also be a URL
+
+
+## Committing
+
+Committing will add any changes to the repository commit history so that it can be referenced as needed.
+
+Prepare a commit by staging changes
+
+`git add <FILE/S>`
+`git rm <FILE/S>`
+`git mv <SRC> <DST>`
+
+Commit staged files
+
+`git commit -m <MESSAGE>`
+
+m flag is for creating a message
+
+If no m flag is used git will open up an editor based on configuration or defaulting to vi
+
+The editor can be used to create longer messages
+
+You can stage and commit all in one command if you prefer
+
+`git commit <FILE/S> -m <MSG>`
+
+
+
+
+## Viewing Commits
+
+View history of commits
+
+`git log`
+
+View log with one line summaries
+
+`git log --oneline`
+
+View one commit in detail
+
+`git show <ID>`
+
+View the difference between two commits
+
+`git diff <ID1> <ID2>`
+
