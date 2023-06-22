@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7bd7ef87b35df85e",
+        "id": "e1633acfb553a532",
         "type": "tabs",
         "children": [
           {
-            "id": "257a20694c4ba4d1",
+            "id": "0fbc54602408d10b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/Basics.md",
+                "file": "Technology Catalog/Devops/Maven/Running.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/Git/Basics.md",
+                "file": "Technology Catalog/Devops/Maven/Running.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/Git/Basics.md",
+                "file": "Technology Catalog/Devops/Maven/Running.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/Git/Basics.md"
+                "file": "Technology Catalog/Devops/Maven/Running.md"
               }
             }
           }
@@ -154,8 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "257a20694c4ba4d1",
+  "active": "0fbc54602408d10b",
   "lastOpenFiles": [
+    "Technology Catalog/Devops/Maven/Running.md",
+    "Technology Catalog/Devops/Git/Basics.md",
     "Technology Catalog/Devops/Git",
     "Technology Catalog/Devops/Maven/Profiles.md",
     "Technology Catalog/Devops/Maven/Build Lifecycle.md",
@@ -174,7 +176,6 @@
     "Technology Catalog/Devops/Maven/Goals/Process Resources.md",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Jenkins.md",
-    "Technology Catalog/Devops/Git/Basics.md",
     "Technology Catalog/Devops/Prometheus.md",
     "Technology Catalog/Containers/Knative.md",
     "Technology Catalog/Other/Maven/POM.md",
@@ -192,7 +193,6 @@
     "Technology Catalog/Containers/Kubernetes/Resources",
     "Technology Catalog/Containers/Kubernetes",
     "Technology Catalog/Data Engineering",
-    "Software Engineering/Standards/OAuth2 Flow",
     "___/Macaroon.jpg",
     "___/OAuth2.jpg",
     "___/OAuth.jpg",
