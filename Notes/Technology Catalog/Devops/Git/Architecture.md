@@ -1,0 +1,30 @@
+
+Entire repository is contained within `.git` directory
+
+Contains two primary structures:
+- Object store
+- Index
+
+## Object Store
+
+Contains all versions of a project
+
+Four main objects:
+- Blobs - opaque binary object
+- Trees - directory representation with pointers to blobs and other trees
+- Commits - represents a saved version and contains metadata, points to a tree, and a previous commit
+- Tags - assign a text name to a commit
+
+Object are compressed and stored in packfiles
+
+Each object is associated with a unique id by applying a SHA1 hash to the object.
+
+This means objects that are the same will get the same id even if they're in different repositories!
+
+
+## Index
+
+Stores temporary binary data related to your files.
+
+Used for staging.
+

@@ -64,4 +64,6 @@
 
 `-Dfull` - will show in verbose format
 
+`-Ddetail` - increase detail for the goals and goal parameters
+
 `-Dmojo=<GOAL_NAME>` - will show only documentation on the plugin goal
