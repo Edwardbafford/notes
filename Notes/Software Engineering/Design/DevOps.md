@@ -10,7 +10,7 @@ System for tracking all version of a code base so that nothing is very lost.
 
 Everything should be managed through version control.
 
-- [[Basics]]
+- [[1. Basics]]
 
 
 ## Infrastructure as Code
@@ -132,7 +132,7 @@ Complex but prevents drift.
 
 ## GitOps
 
-An implementation of DevOps where [[Basics]] repositories are the single source of truth.
+An implementation of DevOps where [[1. Basics]] repositories are the single source of truth.
 - infrastructure
 - configuration
 - application code

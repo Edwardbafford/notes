@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/SonarQube/1. Intro.md",
+                "file": "Technology Catalog/Devops/Git/5. Index.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/SonarQube/1. Intro.md",
+                "file": "Technology Catalog/Devops/Git/5. Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/SonarQube/1. Intro.md",
+                "file": "Technology Catalog/Devops/Git/5. Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/SonarQube/1. Intro.md"
+                "file": "Technology Catalog/Devops/Git/5. Index.md"
               }
             }
           }
@@ -156,16 +156,17 @@
   },
   "active": "cc8eeac694108e44",
   "lastOpenFiles": [
-    "Technology Catalog/Devops/Git/Commits.md",
+    "Technology Catalog/Devops/Git/4. Commits.md",
+    "Technology Catalog/Devops/Git/5. Index.md",
+    "Technology Catalog/Devops/Git/3. Branches.md",
+    "Technology Catalog/Devops/Git/2. Architecture.md",
+    "Technology Catalog/Devops/Git/1. Basics.md",
     "Technology Catalog/Devops/SonarQube/1. Intro.md",
     "Technology Catalog/Devops/SonarQube",
-    "Technology Catalog/Devops/Git/Branches.md",
     "Technology Catalog/Devops/Maven/Build Lifecycle.md",
     "Technology Catalog/Devops/Maven/Maven.md",
     "Technology Catalog/Devops/Maven/Plugin Configuration.md",
     "Technology Catalog/Devops/Maven/Running.md",
-    "Technology Catalog/Devops/Git/Architecture.md",
-    "Technology Catalog/Devops/Git/Basics.md",
     "Technology Catalog/Devops/Git",
     "Technology Catalog/Devops/Maven/Profiles.md",
     "Software Engineering/Design/DevOps.md",
@@ -184,7 +185,6 @@
     "Technology Catalog/Devops/Jenkins.md",
     "Technology Catalog/Devops/Prometheus.md",
     "Technology Catalog/Containers/Knative.md",
-    "Technology Catalog/Other/Maven/POM.md",
     "Technology Catalog/Devops/Maven",
     "Technology Catalog/Languages/Python",
     "Technology Catalog/Languages",
