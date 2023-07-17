@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/5. Index.md",
+                "file": "Technology Catalog/Devops/Git/6. Merge.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/Git/5. Index.md",
+                "file": "Technology Catalog/Devops/Git/6. Merge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/Git/5. Index.md",
+                "file": "Technology Catalog/Devops/Git/6. Merge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/Git/5. Index.md"
+                "file": "Technology Catalog/Devops/Git/6. Merge.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "cc8eeac694108e44",
   "lastOpenFiles": [
-    "Technology Catalog/Devops/Git/4. Commits.md",
     "Technology Catalog/Devops/Git/5. Index.md",
+    "Technology Catalog/Devops/Git/6. Merge.md",
+    "Technology Catalog/Devops/Git/4. Commits.md",
     "Technology Catalog/Devops/Git/3. Branches.md",
     "Technology Catalog/Devops/Git/2. Architecture.md",
     "Technology Catalog/Devops/Git/1. Basics.md",
@@ -184,7 +185,6 @@
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Jenkins.md",
     "Technology Catalog/Devops/Prometheus.md",
-    "Technology Catalog/Containers/Knative.md",
     "Technology Catalog/Devops/Maven",
     "Technology Catalog/Languages/Python",
     "Technology Catalog/Languages",
