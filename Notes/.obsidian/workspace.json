@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "173aea35f3850f5c",
+        "id": "7c8f59cfb045d709",
         "type": "tabs",
         "children": [
           {
-            "id": "e52455fcddef35b0",
+            "id": "c1979cb7efe4623d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/9. Altering Commits.md",
+                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/Git/9. Altering Commits.md",
+                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/Git/9. Altering Commits.md",
+                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/Git/9. Altering Commits.md"
+                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md"
               }
             }
           }
@@ -154,12 +154,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e52455fcddef35b0",
+  "active": "c1979cb7efe4623d",
   "lastOpenFiles": [
-    "Technology Catalog/Devops/Git/4. Commits.md",
-    "Technology Catalog/Devops/Git/9. Altering Commits.md",
-    "Technology Catalog/Devops/Git/8. Finding Commits.md",
     "Technology Catalog/Devops/Git/7. Diff.md",
+    "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
+    "Technology Catalog/Devops/Git/9. Altering Commits.md",
+    "Technology Catalog/Devops/Git/4. Commits.md",
+    "Technology Catalog/Devops/Git/8. Finding Commits.md",
     "Technology Catalog/Devops/Git/6. Merge.md",
     "Technology Catalog/Devops/Git/5. Index.md",
     "Technology Catalog/Devops/Git/3. Branches.md",
@@ -183,7 +184,6 @@
     "Technology Catalog/Devops/Anchor.md",
     "Technology Catalog/AWS/AWS.md",
     "Technology Catalog/Devops/HashiCorp Vault.md",
-    "Technology Catalog/Devops/SonarQube.md",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Maven",
     "Technology Catalog/Languages/Python",
