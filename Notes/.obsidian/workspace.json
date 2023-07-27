@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
+                "file": "Technology Catalog/Devops/Git/11. Remote Repositories.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
+                "file": "Technology Catalog/Devops/Git/11. Remote Repositories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
+                "file": "Technology Catalog/Devops/Git/11. Remote Repositories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/Git/10. Stash and Reflog.md"
+                "file": "Technology Catalog/Devops/Git/11. Remote Repositories.md"
               }
             }
           }
@@ -156,15 +156,17 @@
   },
   "active": "c1979cb7efe4623d",
   "lastOpenFiles": [
-    "Technology Catalog/Devops/Git/7. Diff.md",
     "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
+    "Technology Catalog/Devops/Git/11. Remote Repositories.md",
+    "Technology Catalog/Devops/Git/11. Remote Repositories",
     "Technology Catalog/Devops/Git/9. Altering Commits.md",
-    "Technology Catalog/Devops/Git/4. Commits.md",
     "Technology Catalog/Devops/Git/8. Finding Commits.md",
+    "Technology Catalog/Devops/Git/7. Diff.md",
     "Technology Catalog/Devops/Git/6. Merge.md",
     "Technology Catalog/Devops/Git/5. Index.md",
-    "Technology Catalog/Devops/Git/3. Branches.md",
     "Technology Catalog/Devops/Git/2. Architecture.md",
+    "Technology Catalog/Devops/Git/4. Commits.md",
+    "Technology Catalog/Devops/Git/3. Branches.md",
     "Technology Catalog/Devops/Git/1. Basics.md",
     "Technology Catalog/Devops/SonarQube/1. Intro.md",
     "Technology Catalog/Devops/SonarQube",
@@ -183,7 +185,6 @@
     "Technology Catalog/AWS/Services/AWS Secrets Manager.md",
     "Technology Catalog/Devops/Anchor.md",
     "Technology Catalog/AWS/AWS.md",
-    "Technology Catalog/Devops/HashiCorp Vault.md",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Maven",
     "Technology Catalog/Languages/Python",
@@ -192,7 +193,6 @@
     "Untitled.canvas",
     "Software Engineering/Networking",
     "Technology Catalog/Containers/Kubernetes/Resources",
-    "Technology Catalog/Containers/Kubernetes",
     "___/Macaroon.jpg",
     "___/OAuth2.jpg",
     "___/OAuth.jpg",
