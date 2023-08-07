@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/13. Patches.md",
+                "file": "Technology Catalog/Devops/Git/14. Hooks.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rebase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/Git/13. Patches.md",
+                "file": "Technology Catalog/Devops/Git/14. Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/Git/13. Patches.md",
+                "file": "Technology Catalog/Devops/Git/14. Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/Git/13. Patches.md"
+                "file": "Technology Catalog/Devops/Git/14. Hooks.md"
               }
             }
           }
@@ -157,6 +157,7 @@
   "active": "9dda89c70e5e99be",
   "lastOpenFiles": [
     "Technology Catalog/Devops/Git/9. Altering Commits.md",
+    "Technology Catalog/Devops/Git/14. Hooks.md",
     "Technology Catalog/Devops/Git/13. Patches.md",
     "Technology Catalog/Devops/Git/4. Commits.md",
     "Technology Catalog/Devops/Git/11. Remote Repositories.md",
@@ -184,7 +185,6 @@
     "Software Engineering/Design/DevOps.md",
     "Cyber Security/Service-to-Service.md",
     "Technology Catalog/Other/Python.md",
-    "Cyber Security/Untitled.md",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Maven",
     "Technology Catalog/Languages/Python",
