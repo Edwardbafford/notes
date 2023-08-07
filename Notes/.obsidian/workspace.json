@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7c8f59cfb045d709",
+        "id": "b7b8928579fe85ce",
         "type": "tabs",
         "children": [
           {
-            "id": "c1979cb7efe4623d",
+            "id": "06211f3f69a62cac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/12. Repository Management.md",
+                "file": "Technology Catalog/Devops/Git/13. Patches.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Technology Catalog/Devops/Git/13. Patches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Technology Catalog/Devops/Git/13. Patches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Technology Catalog/Devops/Git/13. Patches.md"
+              }
             }
           }
         ],
@@ -152,17 +156,21 @@
   },
   "active": "9dda89c70e5e99be",
   "lastOpenFiles": [
-    "Technology Catalog/Devops/Git/12. Repository Management.md",
+    "Technology Catalog/Devops/Git/9. Altering Commits.md",
+    "Technology Catalog/Devops/Git/13. Patches.md",
+    "Technology Catalog/Devops/Git/4. Commits.md",
     "Technology Catalog/Devops/Git/11. Remote Repositories.md",
+    "Technology Catalog/Devops/Git/12. Repository Management.md",
+    "Technology Catalog/AWS/Concepts/Security Group.md",
+    "Technology Catalog/AWS/Concepts/Elastic Network Inferface.md",
+    "Technology Catalog/Languages/Java.md",
     "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
     "Technology Catalog/Devops/Git/11. Remote Repositories",
-    "Technology Catalog/Devops/Git/9. Altering Commits.md",
     "Technology Catalog/Devops/Git/8. Finding Commits.md",
     "Technology Catalog/Devops/Git/7. Diff.md",
     "Technology Catalog/Devops/Git/6. Merge.md",
     "Technology Catalog/Devops/Git/5. Index.md",
     "Technology Catalog/Devops/Git/2. Architecture.md",
-    "Technology Catalog/Devops/Git/4. Commits.md",
     "Technology Catalog/Devops/Git/3. Branches.md",
     "Technology Catalog/Devops/Git/1. Basics.md",
     "Technology Catalog/Devops/SonarQube/1. Intro.md",
@@ -177,10 +185,6 @@
     "Cyber Security/Service-to-Service.md",
     "Technology Catalog/Other/Python.md",
     "Cyber Security/Untitled.md",
-    "Software Engineering/Design/Identity Management.md",
-    "Cyber Security/Other/Binary Authorization.md",
-    "Technology Catalog/AWS/Services/AWS Secrets Manager.md",
-    "Technology Catalog/Devops/Anchor.md",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Maven",
     "Technology Catalog/Languages/Python",
