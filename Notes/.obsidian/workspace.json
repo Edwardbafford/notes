@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "19adf43ae0406a8d",
+        "id": "513e6603b38e6ab9",
         "type": "tabs",
         "children": [
           {
-            "id": "f8df7dba4630e1d3",
+            "id": "1260bf1f1af8c861",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/15. Composite Repositories.md",
+                "file": "Technology Catalog/Devops/Git/16. Other.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "clone",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/Git/15. Composite Repositories.md",
+                "file": "Technology Catalog/Devops/Git/16. Other.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/Git/15. Composite Repositories.md",
+                "file": "Technology Catalog/Devops/Git/16. Other.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/Git/15. Composite Repositories.md"
+                "file": "Technology Catalog/Devops/Git/16. Other.md"
               }
             }
           }
@@ -154,8 +155,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8df7dba4630e1d3",
+  "active": "8d90ad15661247c4",
   "lastOpenFiles": [
+    "Technology Catalog/Devops/Git/2. Architecture.md",
+    "Technology Catalog/Devops/Git/16. Other.md",
     "Technology Catalog/Devops/Git/15. Composite Repositories.md",
     "Software Projects.md",
     "Technology Catalog/Devops/SonarQube.md",
@@ -178,12 +181,10 @@
     "Technology Catalog/Devops/Git/7. Diff.md",
     "Technology Catalog/Devops/Git/6. Merge.md",
     "Technology Catalog/Devops/Git/5. Index.md",
-    "Technology Catalog/Devops/Git/2. Architecture.md",
     "Technology Catalog/Devops/Git/3. Branches.md",
     "Technology Catalog/Devops/Git/1. Basics.md",
     "Technology Catalog/Devops/SonarQube",
     "Technology Catalog/Devops/Maven/Maven.md",
-    "Technology Catalog/Devops/Maven/Plugin Configuration.md",
     "Technology Catalog/Devops/Git",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Maven",
