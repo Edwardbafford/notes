@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technology Catalog/Devops/Git/16. Other.md",
+                "file": "Technology Catalog/Devops/Git/Other/16. Other.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clone",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Technology Catalog/Devops/Git/16. Other.md",
+                "file": "Technology Catalog/Devops/Git/Other/16. Other.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Technology Catalog/Devops/Git/16. Other.md",
+                "file": "Technology Catalog/Devops/Git/Other/16. Other.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Technology Catalog/Devops/Git/16. Other.md"
+                "file": "Technology Catalog/Devops/Git/Other/16. Other.md"
               }
             }
           }
@@ -155,45 +154,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d90ad15661247c4",
+  "active": "9dda89c70e5e99be",
   "lastOpenFiles": [
-    "Technology Catalog/Devops/Git/2. Architecture.md",
-    "Technology Catalog/Devops/Git/16. Other.md",
-    "Technology Catalog/Devops/Git/15. Composite Repositories.md",
+    "Technology Catalog/Devops/Git/Other",
+    "Technology Catalog/Devops/Git/Remotes",
+    "Technology Catalog/Devops/Git/Untitled.md",
+    "Technology Catalog/Devops/Git/Other/16. Other.md",
+    "Technology Catalog/Devops/Git/Operations",
+    "Technology Catalog/Devops/Git/Fundementals",
+    "Technology Catalog/Devops/Git/Other/15. Composite Repositories.md",
+    "Technology Catalog/Devops/Git/Operations/13. Patches.md",
+    "Technology Catalog/Devops/Git/Remotes/12. Repository Management.md",
+    "Technology Catalog/Devops/Git/Remotes/11. Remote Repositories.md",
+    "Technology Catalog/Devops/Git/Operations/10. Stash and Reflog.md",
+    "Technology Catalog/Devops/Git/Operations/9. Altering Commits.md",
+    "Technology Catalog/Devops/Git/Operations/8. Finding Commits.md",
+    "Technology Catalog/Devops/Git/Operations/7. Diff.md",
+    "Technology Catalog/Devops/Git/Fundementals/6. Merge.md",
+    "Technology Catalog/Devops/Git/Fundementals/5. Index.md",
+    "Technology Catalog/Devops/Git/Fundementals/4. Commits.md",
+    "Technology Catalog/Devops/Git/Fundementals/3. Branches.md",
+    "Technology Catalog/Devops/Git/Fundementals/2. Architecture.md",
+    "Technology Catalog/Devops/Git/Fundementals/1. Basics.md",
     "Software Projects.md",
     "Technology Catalog/Devops/SonarQube.md",
     "Technology Catalog/Devops/Terraform.md",
     "Technology Catalog/Devops/Untitled.md",
     "Technology Catalog/Devops/SonarQube/1. Intro.md",
     "Technology Catalog/Devops/Maven/Build Lifecycle.md",
-    "Technology Catalog/Devops/Git/14. Hooks.md",
-    "Technology Catalog/Devops/Git/9. Altering Commits.md",
-    "Technology Catalog/Devops/Git/13. Patches.md",
-    "Technology Catalog/Devops/Git/4. Commits.md",
-    "Technology Catalog/Devops/Git/11. Remote Repositories.md",
-    "Technology Catalog/Devops/Git/12. Repository Management.md",
+    "Technology Catalog/Devops/Git/Other/14. Hooks.md",
     "Technology Catalog/AWS/Concepts/Security Group.md",
     "Technology Catalog/AWS/Concepts/Elastic Network Inferface.md",
-    "Technology Catalog/Languages/Java.md",
-    "Technology Catalog/Devops/Git/10. Stash and Reflog.md",
     "Technology Catalog/Devops/Git/11. Remote Repositories",
-    "Technology Catalog/Devops/Git/8. Finding Commits.md",
-    "Technology Catalog/Devops/Git/7. Diff.md",
-    "Technology Catalog/Devops/Git/6. Merge.md",
-    "Technology Catalog/Devops/Git/5. Index.md",
-    "Technology Catalog/Devops/Git/3. Branches.md",
-    "Technology Catalog/Devops/Git/1. Basics.md",
     "Technology Catalog/Devops/SonarQube",
-    "Technology Catalog/Devops/Maven/Maven.md",
     "Technology Catalog/Devops/Git",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Maven",
     "Technology Catalog/Languages/Python",
     "Technology Catalog/Languages",
-    "Technology Catalog/Devops",
     "Untitled.canvas",
-    "Software Engineering/Networking",
-    "Technology Catalog/Containers/Kubernetes/Resources",
     "___/Macaroon.jpg",
     "___/OAuth2.jpg",
     "___/OAuth.jpg",
