@@ -10,7 +10,7 @@ System for tracking all version of a code base so that nothing is very lost.
 
 Everything should be managed through version control.
 
-- [[1. Basics]]
+- [[1. Basics|Git]]
 
 
 ## Infrastructure as Code
