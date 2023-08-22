@@ -28,10 +28,42 @@ Scalability
 1. Load prediction
 2. Load testing based off of predictions
 
+## Monitoring
 
-## Service Level Objectives
+Collection real time data from a system.
+
+**White box monitoring** measures system internals.
+
+**Black box monitoring** measures externally visible behavior.
+
+Monitoring systems should be kept as simple and reliable as possible so that we don't need to monitor our monitoring system!
+
+Monitoring can be used for
+- System analysis
+- Detect issues and alert developers
+
+Alerts are triggered by metrics.
+
+False positive alerts need to be minimized.
+
+### Metrics
+- Latency
+- Traffic
+- Errors
+- Resources
+	- Storage
+	- CPU
+	- Memory
+
+Metrics are distributions and the shape tail of the distribution should be considered.
+
+Consider the granularity of the metric measurements.
+
+### Service Level Objectives
 
 **Service level indicators** are metrics that are important to a service in some way.
+
+SLIs work off of your monitoring system.
 
 **Service level objectives** are target values/ranges for service level indicators.
 
