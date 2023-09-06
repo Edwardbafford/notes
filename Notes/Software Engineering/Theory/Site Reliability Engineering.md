@@ -3,19 +3,18 @@ SREs apply software engineering for system administrator work to reduce toil and
 
 **Toil** is work tied to running a production service that is manual, repetitive, and does not add lasting value.
 
+Automating toil saves time and makes processing more consistent.
+
+
 
 
 Metrics
-- Availability
+- Availability - DONE
+- Monitoring - DONE
 - Scalability
 - Latency
 - Cost
 - Change management
-- Monitoring
-
-Monitoring
-- Alerts - notifications signaling human intervention is needed
-- Logging - records which can be used for analysis
 
 Emergency Response - mean time to repair
 
@@ -27,6 +26,8 @@ Change management
 Scalability
 1. Load prediction
 2. Load testing based off of predictions
+
+
 
 ## Monitoring
 
@@ -92,5 +93,16 @@ Availability influences
 
 Create a specific quarterly availability goal. If the goal is being met feel free to increase development if not slow down development and focus on availability. If availability is too hard to hit, decrease the metric.
 
+
+## Release Management
+
+Teams should be able to push deployments in an easy, reliable, and independent way.
+
+Teams should be able to deploy any version they want in this way.
+
+Deployments should be gated with
+- code reviews
+- security checks
+- lower environment deployments
 
 
