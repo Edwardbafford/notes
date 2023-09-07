@@ -3,20 +3,16 @@ SREs apply software engineering for system administrator work to reduce toil and
 
 **Toil** is work tied to running a production service that is manual, repetitive, and does not add lasting value.
 
-Automating toil saves time and makes processing more consistent.
+Automating toil makes processes more **reliable**.
+
+Reliability Hierarchy
+- [[#Monitoring|Monitoring]] - allows for awareness of issues
+- Incident Response - how issues are handled
+- Tracking incidents - allows us to learn from incidents
+- Testing and Release procedures - to proactively prevent incidents
+- Robust designs - to proactively prevent incidents
 
 
-
-
-Metrics
-- Availability - DONE
-- Monitoring - DONE
-- Scalability
-- Latency
-- Cost
-- Change management
-
-Emergency Response - mean time to repair
 
 Change management
 1. Automated progressive rollouts
@@ -56,9 +52,7 @@ False positive alerts need to be minimized.
 	- CPU
 	- Memory
 
-Metrics are distributions and the shape tail of the distribution should be considered.
-
-Consider the granularity of the metric measurements.
+Metric data should be collected across time for all systems and aggregated into potential alerts.
 
 ### Service Level Objectives
 
@@ -73,6 +67,8 @@ SLIs work off of your monitoring system.
 SLOs should be based around what the customers care most about!
 
 SLOs should be used as a resource for guiding development.
+
+Alerts should be shaped to SLOs.
 
 Different SLOs have different trade-offs and can be adjusted over time.
 
