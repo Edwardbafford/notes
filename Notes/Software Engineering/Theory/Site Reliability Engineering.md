@@ -7,8 +7,7 @@ Automating toil makes processes more **reliable**.
 
 Reliability Hierarchy
 - [[#Monitoring|Monitoring]] - allows for awareness of issues
-- Incident Response - how issues are handled
-- Tracking incidents - allows us to learn from incidents
+- [[#Incident Management|Incident Management]] - how issues are handled
 - Testing and Release procedures - to proactively prevent incidents
 - Robust designs - to proactively prevent incidents
 
@@ -71,6 +70,84 @@ SLOs should be used as a resource for guiding development.
 Alerts should be shaped to SLOs.
 
 Different SLOs have different trade-offs and can be adjusted over time.
+
+
+## Incident Management
+
+### On-Call
+
+Engineers should be on-call to handle incidents that are detected from [[#Monitoring|monitoring]].
+
+Alerts should notify on-call engineers and be escalated if not acknowledged.
+
+You should have enough engineers to prevent people from being on-call too often.
+
+Effort should be put in to prevent on-call engineers from being overworked.
+
+### Troubleshooting
+
+Effective troubleshooting is key during an incident response to minimize downtime.
+
+When possible minimize downtime over root cause analysis.
+
+Troubleshooting workflow
+- Observe behavior
+- Hypothesize problem
+- Test hypothesis
+- Treat successfully tested hypotheses
+
+Systematically moving across a system from component to component is often effective.
+
+Analyzing what has changed recently is a good heuristic for creating hypotheses.
+
+Specialized troubleshooting tools can speed up the process.
+
+### Incident Response
+
+Incidents response should have an outline process with defined roles.
+
+Incident criteria
+- Customer outage
+- 2nd team is needed
+- Production issue is unsolved after an hour
+
+Roles
+- Incident commander
+	- Assigns responsibilities
+	- Hold all positions that haven't been delegated
+	- Removes roadblocks
+	- Keep a living document of the incident
+- Operational Work - only group modifying the system during an incident
+- Communication
+	- Public face of response team
+	- Send out updates to stakeholders
+
+Commander hand-off needs to be done very clearly.
+
+Communication can be down via a war room, chats, and emails.
+
+Practice incident response by intentionally breaking things.
+
+### Postmortem
+
+**Postmortems** are records of an incident with
+- impact
+- actions taken to mitigate
+- root cause
+- follow-up actions to prevent further issues
+
+Used to learn from and prevent future similar incidents.
+
+Should be blameless so that incidents aren't covered up.
+
+Should be collaborated on, reviewed, and emailed out once complete.
+
+### Incident Tracking
+
+Track incidents in a system to understand if you need more or less effort towards prevention.
+
+Collect all alerts and map to incidents.
+
 
 
 ## Availability
