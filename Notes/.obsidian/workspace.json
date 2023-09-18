@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Theory/Site Reliability Engineering.md",
+                "file": "Software Engineering/Theory/DevOps.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Engineering/Theory/Site Reliability Engineering.md",
+                "file": "Software Engineering/Theory/DevOps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Engineering/Theory/Site Reliability Engineering.md",
+                "file": "Software Engineering/Theory/DevOps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Theory/Site Reliability Engineering.md"
+                "file": "Software Engineering/Theory/DevOps.md"
               }
             }
           }
@@ -156,11 +156,11 @@
   },
   "active": "48b9e0b855aa2393",
   "lastOpenFiles": [
-    "Software Engineering/Theory/DevOps.md",
     "Software Engineering/Theory/Site Reliability Engineering.md",
-    "Technology Catalog/Devops/Git/Fundementals/1. Basics.md",
+    "Software Engineering/Theory/DevOps.md",
     "Software Engineering/Theory/Disaster Recovery.md",
     "Software Engineering/Theory/Identity Management.md",
+    "Technology Catalog/Devops/Git/Fundementals/1. Basics.md",
     "Technology Catalog/Devops/Git/Other/16. Other.md",
     "Technology Catalog/Devops/Git/Other",
     "Technology Catalog/Devops/Git/Remotes",

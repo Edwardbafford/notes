@@ -8,8 +8,8 @@ Automating toil makes processes more **reliable**.
 Reliability Hierarchy
 - [[#Monitoring|Monitoring]] - allows for awareness of issues
 - [[#Incident Management|Incident Management]] - how issues are handled
-- Testing and Release procedures - to proactively prevent incidents
-- Robust designs - to proactively prevent incidents
+- [[#Release Procedures|Release Procedures]] - to prevent changes from causing issues
+- Robust designs - to minimize the impact of incidents
 
 
 
@@ -149,6 +149,43 @@ Track incidents in a system to understand if you need more or less effort toward
 Collect all alerts and map to incidents.
 
 
+## Release Procedures
+
+Ideally tests and deployments should be bundled together into a single pipeline.
+
+### Testing
+
+Testing is used so that we can be confident that changes don't break things.
+
+Types
+- Unit tests - validate independent components
+- Integration tests - validate assembled components
+- System - validate end-to-end functionality of an entire system
+	- Smoke tests - validate simple but critical behavior
+	- Performance tests - validate acceptable performance
+	- Regression tests - validate that previously identified issues have been fixed
+
+Developing tests has a cost that should be weighed.
+
+Start by building a simple pipeline and begin with the most important tests. Flesh the system out over time.
+
+### Deployments
+
+Teams should be able to push deployments in an easy, reliable, and independent way.
+
+Teams should be able to deploy any version they want in this way.
+
+Deployments should be gated with
+- code reviews
+- security checks
+- lower environment deployments
+
+**Canary deployment** deploys a release incrementally, starting with a small percentage of the system and increases until the new release makes up all of the system. The system is rolled back if errors are detected.
+
+
+
+
+
 
 ## Availability
 
@@ -167,15 +204,6 @@ Availability influences
 Create a specific quarterly availability goal. If the goal is being met feel free to increase development if not slow down development and focus on availability. If availability is too hard to hit, decrease the metric.
 
 
-## Release Management
 
-Teams should be able to push deployments in an easy, reliable, and independent way.
-
-Teams should be able to deploy any version they want in this way.
-
-Deployments should be gated with
-- code reviews
-- security checks
-- lower environment deployments
 
 
