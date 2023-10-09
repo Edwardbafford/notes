@@ -1,0 +1,174 @@
+
+# General
+
+**Java** is an object oriented, statically typed programming language defined by a specification, **JLS**.
+
+The **JVM** is a runtime and environment that is defined by a specification, **VMSpec**, which ensures consist behavior but flexibility for different vendors to develop their own versions.
+
+`.java` files are compiled by `javac` into `.class` files that consist of bytecode and loaded into the JVM.
+
+New Java releases happen every six months with a long term release every three years.
+
+# New Features
+
+## Var
+
+Added type inference to reduce boilerplate
+
+ `var varName = ...`
+
+Should be used for simple initializers where the scope is limited.
+
+## Collection Factories
+
+A simple way to declare collection literals. 
+
+`List.of(...)`
+`Map.of(...)`
+
+## Removed Libraries
+
+Explicit imports are needed for following libraries
+- JAXB
+- JAX-WS
+- SE
+
+## HTTP 2
+
+New library to support HTTP 2 to allow for
+- low overhead binary headers
+- multiple connections per socket
+- multiple requests per connection
+- enforce TLS
+
+## Streams
+
+Stream is an interface that has funcational methods such as `map()`, `filter()`, `reduce()`, etc.
+
+Create a stream from a collection using `stream()` method.
+
+`collect()` method returns a collection from the stream object.
+
+This framework allows for functional programming.
+
+Avoid parallel methods unless you can prove they improve performance.
+
+## Text Blocks
+
+Allow for string literals that extend over multiple lines without escaping.
+
+Start and end the sequence with `"""`
+
+## Switch Expressions
+
+Similar to switch statements.
+
+Use `yield` to pass back value to a variable.
+
+Functional form exists that can compress multiple cases into a single "switch".
+
+Must handle every possible case for your input type or it won't compile. Because of this, it works well with enums.
+
+## Records
+
+New type of Java class for POJO where the class is nothing but it's fields.
+
+Compiler automatically creates necessary methods and a constructor.
+
+```
+public record recordType(
+	int intValue,
+	String stringValue,
+	...
+)
+```
+
+Created equals method simply compares all fields.
+
+Data is immutable.
+
+Similar to tuple in other languages.
+
+Can create custom constructor or static methods within the record, usually to transform something into a record.
+
+## Sealed Types
+
+A class can be extended but only by a known list of subtypes.
+
+Subtypes are defined as inner classes.
+
+```
+public abstract sealed class Pet {
+	...
+
+	public static final class Cat extends Pet {
+		...
+	}
+}
+```
+
+# Modules
+
+A new way of packaging and deploying code.
+
+Collection of packages and classes that are loaded as a single entity.
+
+Benefits
+- Detect dependency problems at compile time
+- Proper encapsulation
+
+Dependencies are explicit which allows hard guarantees that can be used by the compiler to catch issues early on.
+
+Modules can choose to protect their internal code, giving them the option to change it in the future without destabilizing other code bases.
+
+Two new formats introduced
+- JMOD is similar to JARs
+- JIMAGE represents a runtime image
+
+`jimage` can be used to show metadata about a Java runtime image.
+
+Stack frames are now qualified with module name: `at java.base/java.lang.Integer.parseInt (Integer.java:652)`
+
+`module-info.java` file at root of project defines
+- module name
+- module dependencies
+- publicly available packages
+- relfective access permissions
+- services provided
+- services consumed
+
+`export` keyword defines publicly available package.
+
+`export ... to ...` package is available to a specific other package
+
+`requires` defines a module dependency.
+
+`requires transitive` to define other module/s needed to use the current module.
+
+`open` keyword to provide reflective-only access to an otherwise internal package.
+
+`opens ... to ...` for specific package reflective access.
+
+Module names are global.
+
+Modules are loaded through module path variable, similar to classpath.
+
+JVM creates module graph based on dependencies.
+
+Module types
+- Platform - come from the JDK itself
+- Application - modularized application
+- Automatic - come from JAR files on module path
+	- automatic name
+	- all packages are exporte
+	- depends on every module in the module path
+- Unnamed - classes and JAR on the classpath
+	- depends on every module in the module path
+
+Command-line switches can be used to adjust module behavior at compile time.
+
+Run main class of a module: `java --module-path ... -m ...`
+
+`jlink` can be used to create a small java runtime out of modules.
+
+# Class Files
