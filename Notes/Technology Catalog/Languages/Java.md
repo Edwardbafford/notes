@@ -171,4 +171,42 @@ Run main class of a module: `java --module-path ... -m ...`
 
 `jlink` can be used to create a small java runtime out of modules.
 
-# Class Files
+# Classes
+
+`javap` CLI can be used to dissect Java class files.
+
+`.class` file components
+- type descriptors to describe methods
+- constant pools are class elements that reference each other
+
+## Class Loading
+
+At runtime `.class` files are loaded and processed by the JVM.
+
+Steps
+- Verification - syntax checks
+- Preparation - memory allocation
+- Resolution - resolve dependencies
+- Initialization - run static blocks and create `Class` Java object representing the class
+
+Class loaders are used to load class files and other resources. There are built in implementations but custom ones can be created as well.
+
+Class loader use cases
+- Load from unusual places
+- Dynamically load classes (like in dependency injection)
+
+## Runtime
+
+**call stack** is the stack of methods within a thread.
+
+**evaluation stack** is where operations interact.
+
+Each type of operation is defined by an **opcode** within the byte code. Each opcode manipulates the evaluation stack.
+
+## Reflection
+
+Manipulation of class objects at runtime.
+
+- Get classes
+- Get methods
+- Get modules
