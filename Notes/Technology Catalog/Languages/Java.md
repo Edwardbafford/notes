@@ -170,7 +170,6 @@ Command-line switches can be used to adjust module behavior at compile time.
 Run main class of a module: `java --module-path ... -m ...`
 
 `jlink` can be used to create a small java runtime out of modules.
-
 # Classes
 
 `javap` CLI can be used to dissect Java class files.
@@ -210,3 +209,51 @@ Manipulation of class objects at runtime.
 - Get classes
 - Get methods
 - Get modules
+
+# Concurrency
+
+## Block Structure
+
+Original tools for implementing concurrency
+
+`synchronized` keyword is used to lock a method or an object, preventing other threads from entering that method or using a synchronized block of that object.
+
+Locks used by `synchronized` can cause deadlocks!
+
+`private synchronized boolean withdraw(int amount) { ... }`
+
+`synchronized (object) { ... }`
+
+After synchronized sections run all changes are flushed to main memory.
+
+`volatile` keyword is used to define a field. It ensures that main memory is read before using the field and any operation flushes the result to main memory. 
+
+Acts like a mini synchronized block but without locks.
+
+## Threads
+
+Java objects that are abstractions of an actual OS thread.
+
+States
+- New - thread on OS does not exist yet
+- Runnable - while running
+- Waiting - indefinitely waiting based on some system instruction 
+- Timed waiting - waiting based on a timer
+- Blocked - waiting on a resource
+- Terminated - thread has been stopped forever
+
+Threads are implemented by Runnable objects and can be interacted with through their methods.
+
+```java
+Runnable r = () -> { ... }
+var t = new Thread(r);
+t.start(); // starts thread
+t.join(); // waits for thread to exit
+```
+
+`t.interrupt()` tells the thread to exit but the thread must check for the interrupt signal internally using `Thread.interrupted()`.
+
+Threads can have custom exception handlers set through `t.setUncaughtExceptionHandler((t,e) -> { ... })`.
+
+`t.stop()`, `t.suspend()`, and `t.resumes()` should never be used as they are dangerous and can lead to deadlocks and inconsistent states.
+

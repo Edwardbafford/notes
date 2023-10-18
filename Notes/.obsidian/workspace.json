@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e2efe7d787fb28c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/Theory/Concurrency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -156,6 +168,8 @@
   },
   "active": "c7f0ed34515be9a1",
   "lastOpenFiles": [
+    "Software Engineering/Theory/Concurrency.md",
+    "Technology Catalog/Languages/Java.md",
     "Technology Catalog/Languages/Java",
     "Software Engineering/Theory/DevOps.md",
     "Software Engineering/Theory/Site Reliability Engineering.md",
@@ -185,13 +199,11 @@
     "Technology Catalog/Devops/SonarQube.md",
     "Technology Catalog/Devops/Terraform.md",
     "Technology Catalog/Devops/Untitled.md",
-    "Technology Catalog/Devops/SonarQube/1. Intro.md",
     "Technology Catalog/Devops/Git/11. Remote Repositories",
     "Technology Catalog/Devops/SonarQube",
     "Technology Catalog/Devops/Git",
     "Technology Catalog/Devops/Maven/Goals",
     "Technology Catalog/Devops/Maven",
-    "Technology Catalog/Languages/Python",
     "Untitled.canvas",
     "___/Macaroon.jpg",
     "___/OAuth2.jpg",
