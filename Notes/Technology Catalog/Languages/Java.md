@@ -257,3 +257,34 @@ Threads can have custom exception handlers set through `t.setUncaughtExceptionHa
 
 `t.stop()`, `t.suspend()`, and `t.resumes()` should never be used as they are dangerous and can lead to deadlocks and inconsistent states.
 
+
+## Library
+
+New `java.util.cncurrent` library for high level functionality.
+
+**Atomic** classes provide atomic operations as a wrapper for Java primitives.
+
+**Lock** classes provide options for blocking sections of code between threads.
+
+**CountDownLatch** is a type of lock that can be counted down and block threads until the value equals zero.
+
+**ConcurrentHashMap** thread safe version of a map.
+
+**CopyOnWriteArrayList** is a list that returns a copy of the list anytime a change operation is called.
+
+**BlockingQueue** is used to can force threads to wait when trying to put and take items from the queue.
+
+**Futures** represent an asynchronous task that allows you to wait for the response.
+
+**Completable Future** is an implementation of the Future interface that can be shared between threads and can pass in and receive a value.
+
+**Tasks** are a new way to represent a thread.
+
+**Executors** are used to help developers work with thread pools.
+
+Fixed thread pools can be created with a fixed number of threads. Tasks are submitted to the executor as a queue and processed by one of the threads.
+
+Cached thread pool will create and delete threads as needed by the number of tasks.
+
+Scheduled thread pool will allow for scheduled tasks to be run.
+
